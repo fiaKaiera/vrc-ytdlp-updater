@@ -4,7 +4,7 @@ A simple Windows command-line batch file that allows you to update VRChat's vers
 This is created for those who doesn't want to deal with VRChat not updating yt-dlp, resulting in videos from YouTube not loading globally.
 
 **Download:** (Windows 10 and later)
-- <img src="https://api.iconify.design/mdi:microsoft-windows.svg?color=%23ffffff"> [vrc-ytdlp-updater.bat](https://raw.githubusercontent.com/fiaKaiera/vrc-ytdlp-updater/refs/heads/main/vrc-ytdlp-updater.bat) (Right-click > Save As...)
+- <img src="https://api.iconify.design/mdi:microsoft-windows.svg?color=%23ffffff"> [vrc-ytdlp-updater.bat](https://raw.githubusercontent.com/fiaKaiera/vrc-ytdlp-updater/refs/heads/main/vrc-ytdlp-updater.bat) (Right-click > Save Link As...)
 
 <br><a href='https://ko-fi.com/fiaKaiera' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
