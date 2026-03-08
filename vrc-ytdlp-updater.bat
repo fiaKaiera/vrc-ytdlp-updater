@@ -13,7 +13,6 @@ echo 	This file will do the following:
 echo 	1. Downloads the latest version of yt-dlp.exe from github.
 echo 	   (https://github.com/yt-dlp/yt-dlp)
 echo 	2. Renames the old yt-dlp.exe in the same folder.
-echo %date%
 echo.
 echo You can find your copy of yt-dlp and its backup here:
 echo %LOCALAPPDATA%low\VRChat\VRChat\Tools
@@ -85,5 +84,6 @@ echo Process is complete! 処理が完了しました！
 echo Press any key to close... 任意のキーを押して終了してください...
 pause>nul
 goto close
+
 
 :close
