@@ -66,7 +66,7 @@ set FILENAME=%FILENAME_PRE%%n%.exe
 ren yt-dlp.exe %FILENAME%
 echo Backup complete!
 echo Backup is located at:
-echo %cd%/%FILENAME%
+echo %cd%\%FILENAME%
 goto postbackup
 
 :backupmissing
@@ -87,3 +87,4 @@ goto close
 
 
 :close
+
