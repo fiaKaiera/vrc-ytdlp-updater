@@ -1,3 +1,9 @@
+> [!CAUTION]
+> This solution currently doesn't work due to VRChat being able to actively replace `yt-dlp.exe` nearly at any point.
+> <br>(opening VRChat, on world re-join, etc.)
+> 
+> Use [VRCVideoCacher](https://github.com/EllyVR/VRCVideoCacher) for now.
+
 # VRChat yt-dlp Updater
 A simple Windows command-line batch file that allows you to update VRChat's version of [yt-dlp](https://github.com/yt-dlp/yt-dlp) without having to go through downloading and managing files. Works only for systems that contain **Windows 10 and later**. Made open source with full intention for those who are already suspicious with batch files in the first place.
 
