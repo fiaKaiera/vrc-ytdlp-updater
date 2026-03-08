@@ -13,6 +13,16 @@ This is created for those who doesn't want to deal with the process of manually 
 2. Follow instructions found in the resulting window that appears.
 3. If the process fails, try to run it as Administrator.
 
+## What it does
+1. Downloads the latest copy of [yt-dlp](https://github.com/yt-dlp/yt-dlp) from the official Github page
+2. Closes `vrchat.exe`, since it actively uses yt-dlp when there's a video player playing
+3. Renames your old version of yt-dlp inside VRChat's `LocalLow` folder
+
+> [!NOTE]
+> You can find the current version and backups which is likely at<br>`C:\Users\(YOUR USER FOLDER HERE)\AppData\LocalLow\VRChat\VRChat\Tools\`
+> 
+> If you need to quickly access the folder, simply enter Win+R and then enter this command: `%LOCALAPPDATA%Low\VRChat\VRChat\Tools`
+
 ## Issues? Feature Requests?
 Best report them through the [Issues](https://github.com/fiaKaiera/vrc-ytdlp-updater/issues) tab.
 <br>If you are savvy enough, then you can try making a [pull request](https://github.com/fiaKaiera/vrc-ytdlp-updater/pulls) fixing the issue.
