@@ -38,7 +38,7 @@ Removing `Read-only` allows for VRChat to update `yt-dlp.exe`.
 1. Simply open "Run" (using `Win+R` keys) and paste the following command:
 <br>`cmd /c attrib -r %LOCALAPPDATA%Low\VRChat\VRChat\Tools\yt-dlp.exe`
 2. Press OK, and a command line window should appear for a fraction of a second.
-3. Either restart VRChat or simple re-join the world you currently reside in.
+3. Either restart VRChat or simply re-join the world you currently reside in.
 
 Nothing sketchy here, the command simply removes the `Read-only` attribute on `yt-dlp.exe`.
 - `cmd` is command prompt
