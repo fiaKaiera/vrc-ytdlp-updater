@@ -3,6 +3,7 @@ chcp 65001 >NUL
 
 TITLE VRChat yt-dlp Updater
 
+cls
 echo VRChat yt-dlp Updater
 echo by fiaKaiera (https://github.com/fiaKaiera)
 echo.
@@ -109,5 +110,6 @@ pause>nul
 goto close
 
 :close
+
 
 
