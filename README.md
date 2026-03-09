@@ -1,7 +1,7 @@
 > [!WARNING]
 > This solution makes it so that VRChat does not update `yt-dlp.exe` when updating, 
 > so you have to manually update `yt-dlp.exe` each time.
-> However, you can follow instructions in [Removing `Read-only` on yt-dlp.exe](#removing-read-only-on-yt-dlpexe) to easily uninstall this patch.
+> However, you can follow instructions in [Removing `Read-only` on `yt-dlp.exe`](#removing-read-only-on-yt-dlpexe) to easily uninstall this patch.
 >
 > Updating `yt-dlp.exe` also does not guarantee YouTube videos will work outright.
 > For a more effective solution, use [VRCVideoCacher](https://github.com/EllyVR/VRCVideoCacher).
