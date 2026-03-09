@@ -54,6 +54,11 @@ Nothing sketchy here, the command simply removes the `Read-only` attribute on `y
 - `/c` runs the following command
 - `attrib` changes the attribute
 - `-r` specifically removes `Read-only`
+
+## TODO
+- [ ] Create a menu to update, install, open the folder and remove backups
+- [ ] Powershell `iem | iex` implementation
+
 ## Issues? Feature Requests?
 Best report them through the [Issues](https://github.com/fiaKaiera/vrc-ytdlp-updater/issues) tab.
 <br>If you are savvy enough, then you can try making a [pull request](https://github.com/fiaKaiera/vrc-ytdlp-updater/pulls) fixing the issue.
