@@ -6,6 +6,13 @@
 > Updating `yt-dlp.exe` also does not guarantee YouTube videos will work outright.
 > For a more effective solution, use [VRCVideoCacher](https://github.com/EllyVR/VRCVideoCacher).
 
+<img src="https://api.iconify.design/mdi:google-translate.svg?color=%23ffffff"> [
+[日本語](https://github-com.translate.goog/fiaKaiera/vrc-ytdlp-updater?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=en&_x_tr_pto=wapp)
+| [한국어](https://github-com.translate.goog/fiaKaiera/vrc-ytdlp-updater?_x_tr_sl=en&_x_tr_tl=ko&_x_tr_hl=en&_x_tr_pto=wapp)
+| [简体中文](https://github-com.translate.goog/fiaKaiera/vrc-ytdlp-updater?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en&_x_tr_pto=wapp)
+| [繁體中文](https://github-com.translate.goog/fiaKaiera/vrc-ytdlp-updater?_x_tr_sl=en&_x_tr_tl=zh-TW&_x_tr_hl=en&_x_tr_pto=wapp)
+| [русский](https://github-com.translate.goog/fiaKaiera/vrc-ytdlp-updater?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=en&_x_tr_pto=wapp)
+]
 # VRChat yt-dlp Updater
 A simple Windows command-line batch file that allows you to update VRChat's version of [yt-dlp](https://github.com/yt-dlp/yt-dlp) without having to go through downloading and managing files. Works only for systems that contain **Windows 10 and later**. Made open-source with full intention for those who are already suspicious with batch files in the first place.
 
@@ -24,8 +31,9 @@ This is created for those who doesn't want to deal with the process of manually 
 ## What it does
 1. Downloads the latest copy of [`yt-dlp.exe`](https://github.com/yt-dlp/yt-dlp) from the official Github page
 2. Closes `vrchat.exe`, since it actively uses yt-dlp when there's a video player playing
-3. Adds the `Read-only` attribute for `yt-dlp.exe`, and removes it from the old one
-4. Renames your old version of yt-dlp inside VRChat's `LocalLow` folder
+3. Renames your old version of yt-dlp inside VRChat's `LocalLow` folder
+4. Adds the `Read-only` attribute for `yt-dlp.exe`, and removes it from the old one
+5. Changes the integrity level of `yt-dlp.exe` to Medium, and sets it back to Low for the old one
 
 > [!NOTE]
 > You can find the current version and backups which is likely at<br>`C:\Users\(YOUR USER FOLDER HERE)\AppData\LocalLow\VRChat\VRChat\Tools\`
