@@ -13,6 +13,7 @@ echo 	This file will do the following:
 echo 	1. Downloads the latest version of yt-dlp.exe from github.
 echo 	   (https://github.com/yt-dlp/yt-dlp)
 echo 	2. Renames the old yt-dlp.exe in the same folder.
+echo    3. Sets the new yt-dlp.exe as read-only and removing read-only on the old one.
 echo.
 echo You can find your copy of yt-dlp and its backup here:
 echo %LOCALAPPDATA%low\VRChat\VRChat\Tools
@@ -63,6 +64,8 @@ if exist "%FILENAME_PRE%%n%.exe" (
     goto backuprenloop
 )
 set FILENAME=%FILENAME_PRE%%n%.exe
+echo Removing 'Read-only' attribute on 'yt-dlp.exe'
+attrib -r yt-dlp.exe
 ren yt-dlp.exe %FILENAME%
 echo Backup complete!
 echo Backup is located at:
@@ -76,6 +79,8 @@ echo Original 'yt-dlp.exe' is missing, we're unable to backup anything...
 echo.
 echo Renaming downloaded 'yt-dlp.new.exe' to 'yt-dlp.exe'
 ren yt-dlp.new.exe yt-dlp.exe
+echo Adding 'Read-only' attribute to 'yt-dlp.exe'
+attrib +r yt-dlp.exe
 :: ----------------------------------------------------
 
 echo.
@@ -85,6 +90,4 @@ echo Press any key to close... 任意のキーを押して終了してくださ�
 pause>nul
 goto close
 
-
 :close
-
