@@ -18,6 +18,9 @@ echo.
 echo You can find your copy of yt-dlp and its backup here:
 echo %LOCALAPPDATA%low\VRChat\VRChat\Tools
 echo.
+echo If you want to remove this, close this window and run this by entering the following after pressing Win+R:
+echo cmd /c attrib -r "%LOCALAPPDATA%Low\VRChat\VRChat\Tools\yt-dlp.exe"
+echo.
 echo █████ WARNING: This will close VRChat if you have it open.
 echo █████ If you don't want to do it right now, then simply close this window.
 echo.
@@ -25,6 +28,10 @@ echo --------------------------------------------------------------------
 echo 要約 (JP)
 echo このファイルはVRChat用yt-dlpを更新およびバックアップします。
 echo このファイルの実行中に問題が発生した場合は、管理者として実行してください。
+echo.
+echo ソースコード、その動作の説明、および削除方法はここにあります。
+echo ただし日本語への翻訳が必要になるかもしれません：
+echo https://github.com/fiaKaiera/vrc-ytdlp-updater
 echo.
 echo █████ ※ VRChatが開いている場合、これを閉じます。
 echo █████ 今すぐ実行したくない場合は、このウィンドウを閉じるだけで結構です。
@@ -91,3 +98,4 @@ pause>nul
 goto close
 
 :close
+
