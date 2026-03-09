@@ -13,7 +13,7 @@ echo 	This file will do the following:
 echo 	1. Downloads the latest version of yt-dlp.exe from github.
 echo 	   (https://github.com/yt-dlp/yt-dlp)
 echo 	2. Renames the old yt-dlp.exe in the same folder.
-echo    3. Sets the new yt-dlp.exe as read-only and removing read-only on the old one.
+echo 	3. Sets the new yt-dlp.exe as read-only and removing read-only on the old one.
 echo.
 echo You can find your copy of yt-dlp and its backup here:
 echo %LOCALAPPDATA%low\VRChat\VRChat\Tools
@@ -98,4 +98,5 @@ pause>nul
 goto close
 
 :close
+
 
