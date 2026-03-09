@@ -1,8 +1,9 @@
 > [!WARNING]
 > This solution makes it so that VRChat does not update `yt-dlp.exe` when updating, 
-> so you have to manually update `yt-dlp.exe` each time. However, you can follow instructions to easily uninstall this patch 
+> so you have to manually update `yt-dlp.exe` each time.
+> However, you can follow instructions in [Removing `Read-only` on yt-dlp.exe](#removing-read-only-on-yt-dlpexe) to easily uninstall this patch.
 >
-> Updating `yt-dlp.exe` also does not guarantee the video will work outright.
+> Updating `yt-dlp.exe` also does not guarantee YouTube videos will work outright.
 > For a more effective solution, use [VRCVideoCacher](https://github.com/EllyVR/VRCVideoCacher).
 
 # VRChat yt-dlp Updater
@@ -31,7 +32,7 @@ This is created for those who doesn't want to deal with the process of manually 
 > 
 > If you need to quickly access the folder, simply enter Win+R and then enter this command: `%LOCALAPPDATA%Low\VRChat\VRChat\Tools`
 
-## Removing `Read-only` on yt-dlp.exe
+## Removing `Read-only` on `yt-dlp.exe`
 Removing `Read-only` allows for VRChat to update `yt-dlp.exe`.
 
 1. Simply open "Run" (using `Win+R` keys) and paste the following command:
