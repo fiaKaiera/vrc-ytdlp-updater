@@ -6,7 +6,7 @@
 > For a more effective solution, use [VRCVideoCacher](https://github.com/EllyVR/VRCVideoCacher).
 
 # VRChat yt-dlp Updater
-A simple Windows command-line batch file that allows you to update VRChat's version of [yt-dlp](https://github.com/yt-dlp/yt-dlp) without having to go through downloading and managing files. Works only for systems that contain **Windows 10 and later**. Made open source with full intention for those who are already suspicious with batch files in the first place.
+A simple Windows command-line batch file that allows you to update VRChat's version of [yt-dlp](https://github.com/yt-dlp/yt-dlp) without having to go through downloading and managing files. Works only for systems that contain **Windows 10 and later**. Made open-source with full intention for those who are already suspicious with batch files in the first place.
 
 This is created for those who doesn't want to deal with the process of manually updating VRChat's yt-dlp, resulting in videos from YouTube inside VRChat not loading globally.
 
