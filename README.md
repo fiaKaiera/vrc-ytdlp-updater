@@ -3,7 +3,7 @@
 > so you have to manually update `yt-dlp.exe` each time, which you can do so by running this script again.
 > However, you can follow instructions in [Removing `Read-only` on `yt-dlp.exe`](#removing-read-only-on-yt-dlpexe) to easily uninstall this patch.
 >
-> NOTE: YouTube may issue a temporary bans on users using yt-dlp, forcing you to use VPNs or another solution, but that is normal for VRChat.
+> NOTE: YouTube may issue a temporary bans on users using yt-dlp, forcing you to use VPNs or another solution, but that is normal for VRChat in general, not necessarily with this tool.
 > <br>Updating `yt-dlp.exe` also does not guarantee YouTube videos will work outright. For a more effective solution, use [VRCVideoCacher](https://github.com/EllyVR/VRCVideoCacher).
 
 <img src="https://api.iconify.design/mdi:google-translate.svg?color=%23ffffff"> [
